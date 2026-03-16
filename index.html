@@ -2457,420 +2457,555 @@
         </div>
     </section>
 
-    <!-- Company Information Section -->
-    <section id="company-info" class="py-24 bg-brand-cream border-t border-brand-gold/10">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+    <!-- Corporate Intelligence / Company Information -->
+    <section id="company-info" class="py-32 bg-brand-navy relative overflow-hidden border-t border-brand-gold/10">
+        <!-- Technical Grid Background -->
+        <div class="absolute inset-0 opacity-5 pointer-events-none" style="background-image: radial-gradient(#F97316 1px, transparent 1px); background-size: 30px 30px;"></div>
+        
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-20 items-center">
                 <div class="animate-fade-in-up">
-                    <div class="flex items-center gap-3 mb-6">
-                        <div class="decorative-line"></div>
-                        <span class="text-brand-gold font-accent font-semibold tracking-widest uppercase text-sm">Official Corporate Data</span>
+                    <div class="flex items-center gap-4 mb-8">
+                        <div class="h-[2px] w-12 bg-brand-gold"></div>
+                        <span class="text-brand-gold font-accent font-black tracking-[0.5em] uppercase text-xs italic">Registry Data // CORP-INT-09</span>
                     </div>
-                    <h2 class="font-heading text-4xl font-bold text-brand-navy mb-8">Company <span class="text-gradient">Information</span></h2>
                     
-                    <div class="space-y-6">
-                        <div class="flex items-center gap-6 p-6 bg-brand-cream rounded-xl border border-brand-gold/10">
-                            <div class="w-12 h-12 bg-brand-navy rounded-xl flex items-center justify-center flex-shrink-0">
-                                <i data-lucide="building-2" class="w-6 h-6 text-brand-gold"></i>
+                    <h2 class="font-heading text-4xl md:text-5xl font-black text-white mb-12 leading-[0.9] uppercase italic tracking-tighter px-2">
+                        Company <br />
+                        <span class="text-gradient">Information</span>
+                    </h2>
+                    
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                        <!-- Corporate Dossier Cards -->
+                        <div class="col-span-1 md:col-span-2 p-6 bg-white/5 border border-white/10 relative group hover:bg-white/10 transition-all duration-300">
+                            <div class="flex items-start gap-6">
+                                <div class="w-12 h-12 bg-brand-gold/10 border border-brand-gold/30 flex items-center justify-center text-brand-gold flex-shrink-0 group-hover:bg-brand-gold group-hover:text-brand-navy transition-colors">
+                                    <i data-lucide="building-2" class="w-6 h-6"></i>
+                                </div>
+                                <div class="flex-grow">
+                                    <div class="flex justify-between items-center mb-1">
+                                        <p class="text-[9px] font-accent font-black tracking-[0.3em] uppercase text-brand-gold/60">Entity Name</p>
+                                        <span class="text-[8px] font-accent text-white/20 uppercase tracking-widest">REG: JGL_LTD_82</span>
+                                    </div>
+                                    <p class="text-white font-heading font-black text-xl italic uppercase tracking-tight">Jayud Global Logistics Limited</p>
+                                </div>
                             </div>
-                            <div>
-                                <p class="text-xs text-brand-slate font-accent uppercase tracking-wider mb-1">Company Name</p>
-                                <p class="text-brand-navy font-bold">Jayud Global Logistics Limited</p>
+                        </div>
+
+                        <div class="col-span-1 md:col-span-2 p-6 bg-white/5 border border-white/10 relative group hover:bg-white/10 transition-all duration-300">
+                            <div class="flex items-start gap-6">
+                                <div class="w-12 h-12 bg-brand-gold/10 border border-brand-gold/30 flex items-center justify-center text-brand-gold flex-shrink-0 group-hover:bg-brand-gold group-hover:text-brand-navy transition-colors">
+                                    <i data-lucide="map-pin" class="w-6 h-6"></i>
+                                </div>
+                                <div class="flex-grow">
+                                    <div class="flex justify-between items-center mb-1">
+                                        <p class="text-[9px] font-accent font-black tracking-[0.3em] uppercase text-brand-gold/60">Global HQ</p>
+                                        <span class="text-[8px] font-accent text-white/20 uppercase tracking-widest">LOC: US-Rialto_CA</span>
+                                    </div>
+                                    <p class="text-white font-heading font-black text-xl italic uppercase tracking-tight">1545 W Casmalia St, Rialto, CA 92377, USA</p>
+                                </div>
                             </div>
                         </div>
                         
-                        <div class="flex items-center gap-6 p-6 bg-brand-cream rounded-xl border border-brand-gold/10">
-                            <div class="w-12 h-12 bg-brand-navy rounded-xl flex items-center justify-center flex-shrink-0">
-                                <i data-lucide="map" class="w-6 h-6 text-brand-gold"></i>
-                            </div>
-                            <div>
-                                <p class="text-xs text-brand-slate font-accent uppercase tracking-wider mb-1">Headquarters</p>
-                                <p class="text-brand-navy font-bold">1545 W Casmalia St, Rialto, CA 92377, USA</p>
+                        <div class="p-6 bg-white/5 border border-white/10 relative group hover:bg-white/10 transition-all duration-300">
+                            <div class="flex items-start gap-6">
+                                <div class="w-12 h-12 bg-brand-gold/10 border border-brand-gold/30 flex items-center justify-center text-brand-gold flex-shrink-0 group-hover:bg-brand-gold group-hover:text-brand-navy transition-colors">
+                                    <i data-lucide="activity" class="w-6 h-6"></i>
+                                </div>
+                                <div class="flex-grow">
+                                    <p class="text-[9px] font-accent font-black tracking-[0.3em] uppercase text-brand-gold/60 mb-1">Sector</p>
+                                    <p class="text-white font-heading font-black text-xl italic uppercase tracking-tight">Logistics / Trans</p>
+                                </div>
                             </div>
                         </div>
-                        
-                        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-                            <div class="flex items-center gap-6 p-6 bg-brand-cream rounded-xl border border-brand-gold/10">
-                                <div class="w-12 h-12 bg-brand-navy rounded-xl flex items-center justify-center flex-shrink-0">
-                                    <i data-lucide="briefcase" class="w-6 h-6 text-brand-gold"></i>
+
+                        <div class="p-6 bg-white/5 border border-white/10 relative group hover:bg-white/10 transition-all duration-300">
+                            <div class="flex items-start gap-6">
+                                <div class="w-12 h-12 bg-brand-gold/10 border border-brand-gold/30 flex items-center justify-center text-brand-gold flex-shrink-0 group-hover:bg-brand-gold group-hover:text-brand-navy transition-colors">
+                                    <i data-lucide="globe" class="w-6 h-6"></i>
                                 </div>
-                                <div>
-                                    <p class="text-xs text-brand-slate font-accent uppercase tracking-wider mb-1">Industry</p>
-                                    <p class="text-brand-navy font-bold">Logistics & Transportation</p>
-                                </div>
-                            </div>
-                            <div class="flex items-center gap-6 p-6 bg-brand-cream rounded-xl border border-brand-gold/10">
-                                <div class="w-12 h-12 bg-brand-navy rounded-xl flex items-center justify-center flex-shrink-0">
-                                    <i data-lucide="globe-2" class="w-6 h-6 text-brand-gold"></i>
-                                </div>
-                                <div>
-                                    <p class="text-xs text-brand-slate font-accent uppercase tracking-wider mb-1">Business Coverage</p>
-                                    <p class="text-brand-navy font-bold">US ↔ Asia</p>
+                                <div class="flex-grow">
+                                    <p class="text-[9px] font-accent font-black tracking-[0.3em] uppercase text-brand-gold/60 mb-1">Coverage</p>
+                                    <p class="text-white font-heading font-black text-xl italic uppercase tracking-tight">US ↔ Asia</p>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
                 
+                <!-- Verification HUD Module -->
                 <div class="relative animate-fade-in-up" style="animation-delay: 0.2s;">
-                    <div class="glass p-10 rounded-3xl border-2 border-brand-gold/20 relative z-10">
-                        <div class="flex items-center gap-4 mb-8">
-                            <div class="w-16 h-16 bg-brand-gold/20 rounded-xl flex items-center justify-center">
-                                <i data-lucide="shield-check" class="w-10 h-10 text-brand-gold"></i>
+                    <div class="bg-brand-navy border-2 border-brand-gold/30 p-10 relative z-10 shadow-2xl overflow-hidden">
+                        <!-- HUD Scanning Effect -->
+                        <div class="absolute inset-0 bg-gradient-to-b from-transparent via-brand-gold/5 to-transparent h-24 w-full animate-shimmer opacity-20" style="background-size: 100% 200%;"></div>
+                        
+                        <div class="flex items-center gap-6 mb-12">
+                            <div class="w-16 h-16 bg-brand-gold border-2 border-brand-navy flex items-center justify-center shadow-[4px_4px_0px_0px_rgba(249,115,22,0.2)]">
+                                <i data-lucide="shield-check" class="w-8 h-8 text-brand-navy"></i>
                             </div>
                             <div>
-                                <h3 class="font-heading font-bold text-2xl text-brand-navy">Official Verification</h3>
-                                <p class="text-brand-slate text-sm">Legally Certified Operations</p>
+                                <h3 class="font-heading text-3xl font-black text-white uppercase italic tracking-tighter leading-none">Official Verification</h3>
+                                <p class="text-brand-gold font-accent font-black text-[9px] uppercase tracking-[0.4em] mt-2 italic">Standard Operational Protocol Certified</p>
                             </div>
                         </div>
                         
-                        <ul class="space-y-4">
-                            <li class="flex items-center gap-3 text-brand-navy">
-                                <i data-lucide="check" class="w-5 h-5 text-brand-gold"></i>
-                                <span>Federal Logistics License Certified</span>
+                        <ul class="space-y-6 mb-12 border-l-2 border-brand-gold/20 pl-8">
+                            <li class="flex items-center gap-4 group">
+                                <div class="w-2 h-2 bg-brand-gold rounded-none transform rotate-45"></div>
+                                <span class="text-slate-300 font-medium tracking-tight group-hover:text-white transition-colors uppercase text-sm italic">Federal Logistics License B-892</span>
                             </li>
-                            <li class="flex items-center gap-3 text-brand-navy">
-                                <i data-lucide="check" class="w-5 h-5 text-brand-gold"></i>
-                                <span>IATA Registered Freight Agent</span>
+                            <li class="flex items-center gap-4 group">
+                                <div class="w-2 h-2 bg-brand-gold rounded-none transform rotate-45"></div>
+                                <span class="text-slate-300 font-medium tracking-tight group-hover:text-white transition-colors uppercase text-sm italic">IATA Registered Strategic Agent</span>
                             </li>
-                            <li class="flex items-center gap-3 text-brand-navy">
-                                <i data-lucide="check" class="w-5 h-5 text-brand-gold"></i>
-                                <span>Authorized Cross-Border Carrier</span>
+                            <li class="flex items-center gap-4 group">
+                                <div class="w-2 h-2 bg-brand-gold rounded-none transform rotate-45"></div>
+                                <span class="text-slate-300 font-medium tracking-tight group-hover:text-white transition-colors uppercase text-sm italic">Authorized Cross-Pacific Tier 1 Carrier</span>
                             </li>
                         </ul>
-                        
-                        <div class="mt-8 pt-8 border-t border-brand-gold/10">
-                            <div class="flex items-center justify-between items-end">
-                                <div>
-                                    <p class="text-[10px] text-brand-slate font-accent uppercase tracking-[0.2em] mb-2">Director of Global Operations</p>
-                                    <div class="signature-font text-2xl text-brand-navy">Grace Lee</div>
-                                </div>
-                                <div class="text-right">
-                                    <div class="w-16 h-16 bg-brand-navy/5 rounded-full flex items-center justify-center border border-brand-gold/20 opacity-40">
-                                        <i data-lucide="stamp" class="w-8 h-8 text-brand-navy"></i>
-                                    </div>
+
+                        <div class="bg-white/5 p-8 border border-white/10 relative">
+                            <div class="absolute top-2 right-4 text-[7px] font-accent font-black text-white/20 uppercase tracking-[0.5em]">Authentication_Req</div>
+                            <p class="text-brand-gold/40 font-accent font-black text-[8px] uppercase tracking-widest mb-4">Director of global operations signature</p>
+                            <div class="flex justify-between items-end">
+                                <p class="font-heading text-3xl text-white italic font-black uppercase tracking-tighter">Grace Lee</p>
+                                <div class="w-12 h-12 bg-white/10 flex items-center justify-center border border-white/20 opacity-30">
+                                    <i data-lucide="stamp" class="w-6 h-6 text-white"></i>
                                 </div>
                             </div>
+                        </div>
+                    </div>
+
+                    <!-- Decorative Background HUD Element -->
+                    <div class="absolute -top-10 -right-10 w-40 h-40 border-r-4 border-t-4 border-brand-gold/10 pointer-events-none"></div>
+                    <div class="absolute -bottom-10 -left-10 w-40 h-40 border-l-4 border-b-4 border-brand-gold/10 pointer-events-none"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Knowledge Base (FAQ) // Logistics Terminal Logs -->
+    <section id="faq" class="py-32 bg-brand-navy relative overflow-hidden border-t border-brand-gold/10">
+        <!-- Technical Scanning Overlay -->
+        <div class="absolute inset-0 pointer-events-none opacity-5" style="background-image: linear-gradient(0deg, transparent 24%, rgba(249, 115, 22, .05) 25%, rgba(249, 115, 22, .05) 26%, transparent 27%, transparent 74%, rgba(249, 115, 22, .05) 75%, rgba(249, 115, 22, .05) 76%, transparent 77%, transparent); background-size: 50px 50px;"></div>
+
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            <div class="mb-20 text-center">
+                <div class="flex items-center justify-center gap-4 mb-6">
+                    <div class="h-[1px] w-12 bg-brand-gold/30"></div>
+                    <span class="text-brand-gold font-accent font-black tracking-[0.5em] uppercase text-[10px] italic bg-brand-gold/5 px-4 py-1">Operational Knowledge Base // DB-LOG-01</span>
+                    <div class="h-[1px] w-12 bg-brand-gold/30"></div>
+                </div>
+                <h2 class="font-heading text-4xl md:text-5xl font-black text-white uppercase italic tracking-tighter leading-tight">
+                    Frequently Asked <span class="text-gradient">Questions</span>
+                </h2>
+            </div>
+            
+            <div class="space-y-3">
+                <!-- Terminal Entry 01 -->
+                <div class="faq-item bg-white/5 border border-white/10 group hover:border-brand-gold/30 transition-all duration-300">
+                    <button class="faq-trigger flex items-center justify-between w-full p-8 text-left">
+                        <div class="flex items-center gap-6">
+                            <span class="text-[9px] font-accent font-black text-brand-gold/40 border border-brand-gold/20 px-2 py-0.5 group-hover:bg-brand-gold group-hover:text-brand-navy transition-all">LOG_01</span>
+                            <span class="font-heading font-black text-white text-lg md:text-xl uppercase italic tracking-tight group-hover:text-brand-gold transition-colors">Which countries in Asia do you serve?</span>
+                        </div>
+                        <i data-lucide="plus" class="faq-icon w-5 h-5 text-brand-gold transition-transform duration-500"></i>
+                    </button>
+                    <div class="faq-content px-8 pb-8 overflow-hidden">
+                        <div class="pt-2 border-t border-white/5">
+                            <p class="text-slate-400 leading-relaxed font-medium text-lg italic max-w-2xl">
+                                <span class="text-brand-gold font-black mr-2">>></span>
+                                We primarily serve China, Vietnam, Thailand, and Malaysia. We also have an expanding network across other parts of Southeast Asia for full logistics coordination.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Terminal Entry 02 -->
+                <div class="faq-item bg-white/5 border border-white/10 group hover:border-brand-gold/30 transition-all duration-300">
+                    <button class="faq-trigger flex items-center justify-between w-full p-8 text-left">
+                        <div class="flex items-center gap-6">
+                            <span class="text-[9px] font-accent font-black text-brand-gold/40 border border-brand-gold/20 px-2 py-0.5 group-hover:bg-brand-gold group-hover:text-brand-navy transition-all">LOG_02</span>
+                            <span class="font-heading font-black text-white text-lg md:text-xl uppercase italic tracking-tight group-hover:text-brand-gold transition-colors">Do you offer cargo tracking?</span>
+                        </div>
+                        <i data-lucide="plus" class="faq-icon w-5 h-5 text-brand-gold transition-transform duration-500"></i>
+                    </button>
+                    <div class="faq-content px-8 pb-8 overflow-hidden">
+                        <div class="pt-2 border-t border-white/5">
+                            <p class="text-slate-400 leading-relaxed font-medium text-lg italic max-w-2xl">
+                                <span class="text-brand-gold font-black mr-2">>></span>
+                                Yes. All our shipments are equipped with digital monitoring. You will receive real-time updates regarding the location and status of your cargo at every milestone.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Terminal Entry 03 -->
+                <div class="faq-item bg-white/5 border border-white/10 group hover:border-brand-gold/30 transition-all duration-300">
+                    <button class="faq-trigger flex items-center justify-between w-full p-8 text-left">
+                        <div class="flex items-center gap-6">
+                            <span class="text-[9px] font-accent font-black text-brand-gold/40 border border-brand-gold/20 px-2 py-0.5 group-hover:bg-brand-gold group-hover:text-brand-navy transition-all">LOG_03</span>
+                            <span class="font-heading font-black text-white text-lg md:text-xl uppercase italic tracking-tight group-hover:text-brand-gold transition-colors">How do you manage customs clearance?</span>
+                        </div>
+                        <i data-lucide="plus" class="faq-icon w-5 h-5 text-brand-gold transition-transform duration-500"></i>
+                    </button>
+                    <div class="faq-content px-8 pb-8 overflow-hidden">
+                        <div class="pt-2 border-t border-white/5">
+                            <p class="text-slate-400 leading-relaxed font-medium text-lg italic max-w-2xl">
+                                <span class="text-brand-gold font-black mr-2">>></span>
+                                We have in-house compliance experts who handle all import/export documentation. We ensure that your cargo complies with all federal regulations to avoid any delays.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Terminal Entry 04 -->
+                <div class="faq-item bg-white/5 border border-white/10 group hover:border-brand-gold/30 transition-all duration-300">
+                    <button class="faq-trigger flex items-center justify-between w-full p-8 text-left">
+                        <div class="flex items-center gap-6">
+                            <span class="text-[9px] font-accent font-black text-brand-gold/40 border border-brand-gold/20 px-2 py-0.5 group-hover:bg-brand-gold group-hover:text-brand-navy transition-all">LOG_04</span>
+                            <span class="font-heading font-black text-white text-lg md:text-xl uppercase italic tracking-tight group-hover:text-brand-gold transition-colors">Do you have warehouse facilities in the US?</span>
+                        </div>
+                        <i data-lucide="plus" class="faq-icon w-5 h-5 text-brand-gold transition-transform duration-500"></i>
+                    </button>
+                    <div class="faq-content px-8 pb-8 overflow-hidden">
+                        <div class="pt-2 border-t border-white/5">
+                            <p class="text-slate-400 leading-relaxed font-medium text-lg italic max-w-2xl">
+                                <span class="text-brand-gold font-black mr-2">>></span>
+                                Yes, our main distribution hub is located in Rialto, California (near the LA and Long Beach ports). It is fully secured and equipped for cross-docking and distribution.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Technical Status Bar -->
+            <div class="mt-12 flex justify-between items-center opacity-30 px-4">
+                <span class="text-[8px] font-accent font-black text-white uppercase tracking-[0.5em]">System_Status: Operational</span>
+                <span class="text-[8px] font-accent font-black text-white uppercase tracking-[0.5em]">Data_Fetch_Verified_2024</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tactical Communications / Contact Section -->
+    <section id="contact" class="py-32 bg-brand-navy relative overflow-hidden">
+        <!-- Technical Grid Overlay -->
+        <div class="absolute inset-0 opacity-5 pointer-events-none" style="background-image: radial-gradient(#F97316 1px, transparent 1px); background-size: 30px 30px;"></div>
+        
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            <div class="bg-white/5 border border-white/10 overflow-hidden shadow-2xl flex flex-col lg:flex-row backdrop-blur-sm">
+                <!-- Left Column: Contact Information Dossier -->
+                <div class="lg:w-2/5 p-12 text-white border-r border-white/10 relative">
+                    <div class="flex items-center gap-4 mb-8">
+                        <div class="h-[2px] w-12 bg-brand-gold"></div>
+                        <span class="text-brand-gold font-accent font-black tracking-[0.5em] uppercase text-xs italic">Get In Touch</span>
+                    </div>
+                    
+                    <h2 class="font-heading text-4xl md:text-5xl font-black mb-12 italic uppercase tracking-tighter leading-[0.9]">
+                        Contact <br />
+                        <span class="text-gradient">Us</span>
+                    </h2>
+                    
+                    <p class="text-slate-300 mb-12 text-lg italic font-medium leading-[1.4] max-w-sm">
+                        For logistics inquiries or partnership opportunities, please contact us directly.
+                    </p>
+                    
+                    <div class="space-y-4">
+                        <!-- Head Office -->
+                        <div class="p-5 bg-white/5 border border-white/10 group hover:bg-white/10 transition-all duration-300">
+                            <div class="flex items-start gap-4">
+                                <div class="w-10 h-10 bg-brand-gold/10 border border-brand-gold/30 flex items-center justify-center text-brand-gold group-hover:bg-brand-gold group-hover:text-brand-navy transition-colors">
+                                    <i data-lucide="map-pin" class="w-5 h-5"></i>
+                                </div>
+                                <div class="flex-grow">
+                                    <p class="text-[9px] font-accent font-black tracking-[0.3em] uppercase text-brand-gold/60 mb-1">Head Office</p>
+                                    <p class="text-white font-heading font-black text-lg italic uppercase tracking-tight">1545 W Casmalia St, Rialto, CA 92377, USA</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Contact Person -->
+                        <div class="p-5 bg-white/5 border border-white/10 group hover:bg-white/10 transition-all duration-300">
+                            <div class="flex items-start gap-4">
+                                <div class="w-10 h-10 bg-brand-gold/10 border border-brand-gold/30 flex items-center justify-center text-brand-gold group-hover:bg-brand-gold group-hover:text-brand-navy transition-colors">
+                                    <i data-lucide="user" class="w-5 h-5"></i>
+                                </div>
+                                <div class="flex-grow">
+                                    <p class="text-[9px] font-accent font-black tracking-[0.3em] uppercase text-brand-gold/60 mb-1">Contact Person</p>
+                                    <p class="text-white font-heading font-black text-xl italic uppercase tracking-tight leading-none mb-1">Grace Lee</p>
+                                    <p class="text-brand-gold/60 text-[10px] uppercase font-black tracking-widest italic">Director of Global Operations</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Email -->
+                        <div class="p-5 bg-white/5 border border-white/10 group hover:bg-white/10 transition-all duration-300">
+                            <div class="flex items-start gap-4">
+                                <div class="w-10 h-10 bg-brand-gold/10 border border-brand-gold/30 flex items-center justify-center text-brand-gold group-hover:bg-brand-gold group-hover:text-brand-navy transition-colors">
+                                    <i data-lucide="mail" class="w-5 h-5"></i>
+                                </div>
+                                <div class="flex-grow">
+                                    <p class="text-[9px] font-accent font-black tracking-[0.3em] uppercase text-brand-gold/60 mb-1">Email</p>
+                                    <p class="text-white font-heading font-black text-lg italic uppercase tracking-tight">info@jayudglobal.com</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Phone -->
+                        <div class="p-5 bg-white/5 border border-white/10 group hover:bg-white/10 transition-all duration-300">
+                            <div class="flex items-start gap-4">
+                                <div class="w-10 h-10 bg-brand-gold/10 border border-brand-gold/30 flex items-center justify-center text-brand-gold group-hover:bg-brand-gold group-hover:text-brand-navy transition-colors">
+                                    <i data-lucide="phone" class="w-5 h-5"></i>
+                                </div>
+                                <div class="flex-grow">
+                                    <p class="text-[9px] font-accent font-black tracking-[0.3em] uppercase text-brand-gold/60 mb-1">Phone</p>
+                                    <p class="text-white font-heading font-black text-lg italic uppercase tracking-tight">+1 (909) 555-0123</p>
+                                </div>
+                            </div>
+                        </div>
+
+                         <!-- Business Hours -->
+                        <div class="p-5 bg-white/5 border border-white/10 group hover:bg-white/10 transition-all duration-300">
+                            <div class="flex items-start gap-4">
+                                <div class="w-10 h-10 bg-brand-gold/10 border border-brand-gold/30 flex items-center justify-center text-brand-gold group-hover:bg-brand-gold group-hover:text-brand-navy transition-colors">
+                                    <i data-lucide="clock" class="w-5 h-5"></i>
+                                </div>
+                                <div class="flex-grow">
+                                    <p class="text-[9px] font-accent font-black tracking-[0.3em] uppercase text-brand-gold/60 mb-1">Business Hours</p>
+                                    <p class="text-white font-heading font-black text-lg italic uppercase tracking-tight">Monday - Friday: 9:00 AM - 6:00 PM PST</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right Column: Tactical Command Terminal -->
+                <div class="lg:w-3/5 p-12 bg-black/40 relative">
+                    <!-- HUD Scanning Effect -->
+                    <div class="absolute inset-0 bg-gradient-to-b from-transparent via-brand-gold/5 to-transparent h-32 w-full animate-shimmer opacity-20 pointer-events-none" style="background-size: 100% 200%;"></div>
+                    
+                    <div class="flex items-center justify-between mb-12 pb-6 border-b border-white/10">
+                        <div class="flex items-center gap-4">
+                            <div class="w-2 h-8 bg-brand-gold"></div>
+                            <div>
+                                <h3 class="font-heading text-2xl font-black text-white uppercase italic tracking-tighter leading-none">Command Uplink</h3>
+                                <p class="text-brand-gold font-accent font-black text-[9px] uppercase tracking-[0.4em] mt-2 italic">Priority Strategic Activation</p>
+                            </div>
+                        </div>
+                        <div class="flex gap-2 opacity-50">
+                             <div class="w-1.5 h-1.5 bg-brand-gold animate-pulse"></div>
+                             <div class="w-1.5 h-1.5 bg-white/20"></div>
+                             <div class="w-1.5 h-1.5 bg-white/20"></div>
+                        </div>
+                    </div>
+
+                    <!-- Tactical Data Modules -->
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-12">
+                        <div class="bg-white/5 p-8 border border-white/10 relative group overflow-hidden">
+                             <div class="absolute top-0 left-0 w-full h-1 bg-brand-gold/20"></div>
+                             <div class="flex justify-between items-start mb-6">
+                                <i data-lucide="database" class="w-6 h-6 text-brand-gold opacity-50"></i>
+                                <span class="text-[8px] font-accent text-white/20 uppercase tracking-[0.5em]">SYSTEM_LOG</span>
+                             </div>
+                             <p class="text-slate-400 text-sm italic font-medium leading-relaxed mb-6">
+                                Access our trans-pacific logistics architecture for real-time strategic routing and asset distribution.
+                             </p>
+                             <div class="flex items-center gap-2">
+                                <div class="w-2 h-2 bg-brand-gold rounded-full animate-ping"></div>
+                                <span class="text-[9px] font-accent font-black text-brand-gold uppercase tracking-widest">Global Sync Active</span>
+                             </div>
+                        </div>
+
+                        <div class="bg-white/5 p-8 border border-white/10 relative group overflow-hidden">
+                             <div class="absolute top-0 left-0 w-full h-1 bg-brand-gold/20"></div>
+                             <div class="flex justify-between items-start mb-6">
+                                <i data-lucide="zap" class="w-6 h-6 text-brand-gold opacity-50"></i>
+                                <span class="text-[8px] font-accent text-white/20 uppercase tracking-[0.5em]">FREQ_ADDR</span>
+                             </div>
+                             <p class="text-slate-400 text-sm italic font-medium leading-relaxed mb-6">
+                                Direct Liaison protocol enabled. Estimated synchronization time for global inquiries: &lt; 120 minutes.
+                             </p>
+                             <div class="flex items-center gap-2">
+                                <span class="text-[9px] font-accent font-black text-white/40 uppercase tracking-widest">Priority: 01</span>
+                             </div>
+                        </div>
+                    </div>
+
+                    <!-- Tactical Liaison Button Stack -->
+                    <div class="space-y-4">
+                        <a href="mailto:info@jayudglobal.com" class="group relative flex items-center justify-between w-full p-1 border-2 border-brand-gold/30 hover:border-brand-gold transition-all duration-500 overflow-hidden">
+                            <div class="absolute inset-0 bg-brand-gold transform -translate-x-full group-hover:translate-x-0 transition-transform duration-500"></div>
+                            <div class="relative z-10 flex items-center gap-6 px-8 py-6">
+                                <i data-lucide="send" class="w-6 h-6 text-brand-gold group-hover:text-brand-navy transition-colors"></i>
+                                <span class="font-heading font-black text-white text-2xl uppercase italic tracking-tighter group-hover:text-brand-navy transition-colors">Initialize Email Protocol</span>
+                            </div>
+                            <div class="relative z-10 pr-8 opacity-0 group-hover:opacity-100 transition-opacity">
+                                <i data-lucide="arrow-right" class="w-6 h-6 text-brand-navy"></i>
+                            </div>
+                        </a>
+
+                        <div class="grid grid-cols-2 gap-4">
+                            <div class="bg-white/5 border border-white/10 p-4 flex items-center justify-center gap-3">
+                                <i data-lucide="check-circle-2" class="w-4 h-4 text-brand-gold"></i>
+                                <span class="text-[10px] font-accent font-black text-white/40 uppercase tracking-[0.3em]">Secure Uplink</span>
+                            </div>
+                            <div class="bg-white/5 border border-white/10 p-4 flex items-center justify-center gap-3">
+                                <i data-lucide="activity" class="w-4 h-4 text-brand-gold"></i>
+                                <span class="text-[10px] font-accent font-black text-white/40 uppercase tracking-[0.3em]">Live Monitoring</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+      <!-- Terminal Base Station (Footer) -->
+    <footer class="bg-brand-navy text-slate-400 pt-24 pb-12 relative overflow-hidden border-t-2 border-brand-gold/20">
+        <!-- Technical Grid Overlay -->
+        <div class="absolute inset-0 opacity-5 pointer-events-none" style="background-image: radial-gradient(#F97316 1px, transparent 1px); background-size: 30px 30px;"></div>
+        
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-12 lg:gap-8 mb-16">
+                
+                <!-- Primary Command Tag (Logo & Info) -->
+                <div class="lg:col-span-4">
+                    <div class="flex items-center gap-4 mb-8">
+                        <div class="w-12 h-12 bg-white/5 border border-brand-gold/30 flex items-center justify-center group hover:bg-brand-gold transition-colors duration-500">
+                            <i data-lucide="crosshair" class="h-6 w-6 text-brand-gold group-hover:text-brand-navy transition-colors"></i>
+                        </div>
+                        <div>
+                            <span class="font-heading font-black text-3xl text-white block italic uppercase tracking-tighter leading-none mb-1">JAYUD <span class="text-brand-gold">GLOBAL</span></span>
+                            <span class="text-[9px] text-slate-500 font-accent font-black tracking-[0.4em] uppercase">Logistics Limited</span>
                         </div>
                     </div>
                     
-    </section>
-
-    <!-- Knowledge Base (FAQ) Section -->
-    <section id="faq" class="py-24 bg-brand-cream border-t border-brand-gold/10">
-        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="text-center mb-16">
-                <div class="flex items-center justify-center gap-3 mb-4">
-                    <div class="decorative-line"></div>
-                    <span class="text-brand-gold font-accent font-semibold tracking-widest uppercase text-sm">Logistics Knowledge Base</span>
-                    <div class="decorative-line"></div>
+                    <div class="pl-4 border-l-2 border-brand-gold/20 mb-8">
+                        <span class="inline-block text-[8px] font-accent font-black tracking-[0.4em] text-brand-gold/80 uppercase mb-3 bg-brand-gold/5 px-2 py-0.5 border border-brand-gold/10">Base Config // JGL-HQ-01</span>
+                        <p class="text-sm font-medium leading-relaxed italic text-slate-300">
+                            High-velocity international logistics bridging the United States and Asia with uncompromised operational reliability.
+                        </p>
+                    </div>
+                    
+                    <div class="flex gap-3">
+                        <a href="#" class="w-10 h-10 bg-white/5 border border-white/10 flex items-center justify-center hover:bg-brand-gold hover:text-brand-navy hover:border-brand-gold transition-all duration-300 group">
+                            <i data-lucide="linkedin" class="w-4 h-4 text-brand-gold group-hover:text-brand-navy transition-colors"></i>
+                        </a>
+                        <a href="#" class="w-10 h-10 bg-white/5 border border-white/10 flex items-center justify-center hover:bg-brand-gold hover:text-brand-navy hover:border-brand-gold transition-all duration-300 group">
+                            <i data-lucide="globe" class="w-4 h-4 text-brand-gold group-hover:text-brand-navy transition-colors"></i>
+                        </a>
+                    </div>
                 </div>
-                <h2 class="font-heading text-4xl md:text-6xl font-black text-brand-navy uppercase italic tracking-tighter px-4">Frequently Asked <span class="text-gradient">Questions</span></h2>
+
+                <!-- Terminal Directory 01: Systems -->
+                <div class="lg:col-span-2 lg:col-start-6">
+                    <h4 class="text-brand-gold font-accent font-black text-[10px] tracking-[0.3em] uppercase mb-8 pb-4 border-b border-brand-gold/20 flex items-center gap-3">
+                        <div class="w-1.5 h-1.5 bg-brand-gold"></div>
+                        Systems
+                    </h4>
+                    <ul class="space-y-4">
+                        <li>
+                            <a href="#home" class="group flex items-center text-sm font-medium hover:text-white transition-colors">
+                                <span class="text-brand-gold opacity-0 group-hover:opacity-100 font-bold mr-2 text-xs transition-all transform -translate-x-2 group-hover:translate-x-0">>></span>
+                                Core Overview
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#about" class="group flex items-center text-sm font-medium hover:text-white transition-colors">
+                                <span class="text-brand-gold opacity-0 group-hover:opacity-100 font-bold mr-2 text-xs transition-all transform -translate-x-2 group-hover:translate-x-0">>></span>
+                                Corporate Intel
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#advantages" class="group flex items-center text-sm font-medium hover:text-white transition-colors">
+                                <span class="text-brand-gold opacity-0 group-hover:opacity-100 font-bold mr-2 text-xs transition-all transform -translate-x-2 group-hover:translate-x-0">>></span>
+                                Tactical Edge
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#leadership" class="group flex items-center text-sm font-medium hover:text-white transition-colors">
+                                <span class="text-brand-gold opacity-0 group-hover:opacity-100 font-bold mr-2 text-xs transition-all transform -translate-x-2 group-hover:translate-x-0">>></span>
+                                Command Center
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Terminal Directory 02: Operations -->
+                <div class="lg:col-span-2">
+                    <h4 class="text-brand-gold font-accent font-black text-[10px] tracking-[0.3em] uppercase mb-8 pb-4 border-b border-brand-gold/20 flex items-center gap-3">
+                        <div class="w-1.5 h-1.5 bg-brand-gold"></div>
+                        Operations
+                    </h4>
+                    <ul class="space-y-4">
+                        <li>
+                            <a href="#" onclick="openModal('ocean')" class="group flex items-center text-sm font-medium hover:text-white transition-colors">
+                                <span class="text-brand-gold opacity-0 group-hover:opacity-100 font-bold mr-2 text-xs transition-all transform -translate-x-2 group-hover:translate-x-0">>></span>
+                                Ocean Freight
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" onclick="openModal('air')" class="group flex items-center text-sm font-medium hover:text-white transition-colors">
+                                <span class="text-brand-gold opacity-0 group-hover:opacity-100 font-bold mr-2 text-xs transition-all transform -translate-x-2 group-hover:translate-x-0">>></span>
+                                Air Freight
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" onclick="openModal('warehouse')" class="group flex items-center text-sm font-medium hover:text-white transition-colors">
+                                <span class="text-brand-gold opacity-0 group-hover:opacity-100 font-bold mr-2 text-xs transition-all transform -translate-x-2 group-hover:translate-x-0">>></span>
+                                Warehousing
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" onclick="openModal('routing')" class="group flex items-center text-sm font-medium hover:text-white transition-colors">
+                                <span class="text-brand-gold opacity-0 group-hover:opacity-100 font-bold mr-2 text-xs transition-all transform -translate-x-2 group-hover:translate-x-0">>></span>
+                                Strategic Routing
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Operational Directives (Contact) -->
+                <div class="lg:col-span-3">
+                    <h4 class="text-white font-heading font-black text-lg italic uppercase tracking-widest mb-8 pb-4 border-b border-white/10">Liaison Coordinates</h4>
+                    <ul class="space-y-6">
+                        <li class="flex items-start gap-4">
+                            <div class="w-8 h-8 bg-brand-gold/10 flex items-center justify-center flex-shrink-0">
+                                <i data-lucide="map-pin" class="w-4 h-4 text-brand-gold"></i>
+                            </div>
+                            <span class="text-sm font-medium">1545 W Casmalia St,<br>Rialto, CA 92377</span>
+                        </li>
+                        <li class="flex items-center gap-4">
+                            <div class="w-8 h-8 bg-brand-gold/10 flex items-center justify-center flex-shrink-0">
+                                <i data-lucide="mail" class="w-4 h-4 text-brand-gold"></i>
+                            </div>
+                            <a href="mailto:info@jayudglobal.com" class="text-sm font-medium hover:text-white hover:underline decoration-brand-gold underline-offset-4 transition-all">info@jayudglobal.com</a>
+                        </li>
+                        <li class="flex items-center gap-4">
+                            <div class="w-8 h-8 bg-brand-gold/10 flex items-center justify-center flex-shrink-0">
+                                <i data-lucide="phone" class="w-4 h-4 text-brand-gold"></i>
+                            </div>
+                            <span class="text-sm font-medium">+1 (909) 555-0123</span>
+                        </li>
+                    </ul>
+                </div>
             </div>
             
-            <div class="space-y-4">
-                <div class="faq-item bg-brand-cream p-6 rounded-xl border border-brand-gold/10">
-                    <button class="faq-trigger">
-                        <span class="font-heading font-bold text-brand-navy text-lg">Which countries in Asia do you serve?</span>
-                        <i data-lucide="chevron-down" class="faq-icon w-6 h-6 text-brand-gold transition-transform"></i>
-                    </button>
-                    <div class="faq-content">
-                        <p class="text-brand-slate leading-relaxed">We primarily serve China, Vietnam, Thailand, and Malaysia. We also have an expanding network across other parts of Southeast Asia for full logistics coordination.</p>
-                    </div>
+            <!-- Operational Status Bar -->
+            <div class="border-t border-brand-gold/20 pt-8 flex flex-col md:flex-row justify-between items-center gap-6 mt-16 relative">
+                <div class="absolute left-0 top-0 w-32 h-px bg-brand-gold shadow-[0_0_10px_rgba(249,115,22,1)]"></div>
+                
+                <div class="flex items-center gap-3 bg-white/5 px-4 py-2 border border-white/10 backdrop-blur-sm">
+                    <div class="w-2 h-2 bg-brand-gold animate-pulse rounded-full"></div>
+                    <p class="text-[9px] font-accent font-black tracking-[0.3em] uppercase text-brand-gold">Sys_Active // 2024 JGL_LTD_82</p>
                 </div>
                 
-                <div class="faq-item bg-brand-cream p-6 rounded-xl border border-brand-gold/10">
-                    <button class="faq-trigger">
-                        <span class="font-heading font-bold text-brand-navy text-lg">Do you offer cargo tracking?</span>
-                        <i data-lucide="chevron-down" class="faq-icon w-6 h-6 text-brand-gold transition-transform"></i>
-                    </button>
-                    <div class="faq-content">
-                        <p class="text-brand-slate leading-relaxed">Yes. All our shipments are equipped with digital monitoring. You will receive real-time updates regarding the location and status of your cargo at every milestone.</p>
-                    </div>
-                </div>
-                
-                <div class="faq-item bg-brand-cream p-6 rounded-xl border border-brand-gold/10">
-                    <button class="faq-trigger">
-                        <span class="font-heading font-bold text-brand-navy text-lg">How do you manage customs clearance?</span>
-                        <i data-lucide="chevron-down" class="faq-icon w-6 h-6 text-brand-gold transition-transform"></i>
-                    </button>
-                    <div class="faq-content">
-                        <p class="text-brand-slate leading-relaxed">We have in-house compliance experts who handle all import/export documentation. We ensure that your cargo complies with all federal regulations to avoid any delays.</p>
-                    </div>
-                </div>
-                
-                <div class="faq-item bg-brand-cream p-6 rounded-xl border border-brand-gold/10">
-                    <button class="faq-trigger">
-                        <span class="font-heading font-bold text-brand-navy text-lg">Do you have warehouse facilities in the US?</span>
-                        <i data-lucide="chevron-down" class="faq-icon w-6 h-6 text-brand-gold transition-transform"></i>
-                    </button>
-                    <div class="faq-content">
-                        <p class="text-brand-slate leading-relaxed">Yes, our main distribution hub is located in Rialto, California (near the LA and Long Beach ports). It is fully secured and equipped for cross-docking and distribution.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Contact Section -->
-    <section id="contact" class="py-24 bg-brand-cream">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div
-                class="bg-gradient-to-br from-brand-navy to-brand-blue rounded-3xl overflow-hidden shadow-2xl flex flex-col lg:flex-row">
-                <div class="lg:w-1/2 p-12 text-white">
-                    <div class="flex items-center gap-3 mb-6">
-                        <div class="w-12 h-0.5 bg-brand-gold"></div>
-                        <span class="text-brand-gold font-accent font-semibold tracking-widest uppercase text-sm">Get In
-                            Touch</span>
-                    </div>
-                    <h2 class="font-heading text-4xl md:text-5xl font-bold mb-6">Contact <span
-                            class="text-gradient">Us</span></h2>
-                    <p class="text-slate-300 mb-10 text-lg leading-relaxed">For logistics inquiries or partnership
-                        opportunities, please contact us directly.</p>
-
-                    <div class="space-y-6 mb-10">
-                        <div class="flex items-start gap-4 p-4 rounded-xl hover:bg-brand-cream/10 transition">
-                            <div
-                                class="w-12 h-12 bg-brand-gold/20 rounded-xl flex items-center justify-center flex-shrink-0">
-                                <i data-lucide="map-pin" class="w-6 h-6 text-brand-gold"></i>
-                            </div>
-                            <div>
-                                <p class="font-heading font-semibold text-lg">Head Office</p>
-                                <p class="text-slate-300">1545 W Casmalia St, Rialto, CA 92377, USA</p>
-                            </div>
-                        </div>
-                        <div class="flex items-start gap-4 p-4 rounded-xl hover:bg-brand-cream/10 transition">
-                            <div
-                                class="w-12 h-12 bg-brand-gold/20 rounded-xl flex items-center justify-center flex-shrink-0">
-                                <i data-lucide="user" class="w-6 h-6 text-brand-gold"></i>
-                            </div>
-                            <div>
-                                <p class="font-heading font-semibold text-lg">Contact Person</p>
-                                <p class="text-slate-300">Grace Lee</p>
-                                <p class="text-brand-gold text-sm font-accent tracking-wide">Director of Global Operations</p>
-                            </div>
-                        </div>
-                        <div class="flex items-start gap-4 p-4 rounded-xl hover:bg-brand-cream/10 transition">
-                            <div
-                                class="w-12 h-12 bg-brand-gold/20 rounded-xl flex items-center justify-center flex-shrink-0">
-                                <i data-lucide="mail" class="w-6 h-6 text-brand-gold"></i>
-                            </div>
-                            <div>
-                                <p class="font-heading font-semibold text-lg">Email</p>
-                                <p class="text-slate-300">info@jayudglobal.com</p>
-                            </div>
-                        </div>
-                        <div class="flex items-start gap-4 p-4 rounded-xl hover:bg-brand-cream/10 transition">
-                            <div
-                                class="w-12 h-12 bg-brand-gold/20 rounded-xl flex items-center justify-center flex-shrink-0">
-                                <i data-lucide="phone" class="w-6 h-6 text-brand-gold"></i>
-                            </div>
-                            <div>
-                                <p class="font-heading font-semibold text-lg">Phone</p>
-                                <p class="text-slate-300">+1 (909) 555-0123</p>
-                            </div>
-                        </div>
-                        <div class="flex items-start gap-4 p-4 rounded-xl hover:bg-brand-cream/10 transition">
-                            <div
-                                class="w-12 h-12 bg-brand-gold/20 rounded-xl flex items-center justify-center flex-shrink-0">
-                                <i data-lucide="clock" class="w-6 h-6 text-brand-gold"></i>
-                            </div>
-                            <div>
-                                <p class="font-heading font-semibold text-lg">Business Hours</p>
-                                <p class="text-slate-300">Monday - Friday: 9:00 AM - 6:00 PM PST</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Social Links -->
-                    <div class="pt-8 border-t border-white/20">
-                        <p class="text-sm text-slate-400 mb-4 font-accent tracking-wide uppercase">Follow Us</p>
-                        <div class="flex gap-4">
-                            <a href="#"
-                                class="w-12 h-12 bg-brand-cream/10 rounded-xl flex items-center justify-center hover:bg-brand-gold hover:text-brand-navy transition">
-                                <i data-lucide="linkedin" class="w-5 h-5"></i>
-                            </a>
-                            <a href="#"
-                                class="w-12 h-12 bg-brand-cream/10 rounded-xl flex items-center justify-center hover:bg-brand-gold hover:text-brand-navy transition">
-                                <i data-lucide="facebook" class="w-5 h-5"></i>
-                            </a>
-                            <a href="#"
-                                class="w-12 h-12 bg-brand-cream/10 rounded-xl flex items-center justify-center hover:bg-brand-gold hover:text-brand-navy transition">
-                                <i data-lucide="twitter" class="w-5 h-5"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="lg:w-1/2 bg-brand-cream p-12">
-                    <form id="contact-form" class="space-y-6">
-                        <div class="grid grid-cols-2 gap-4">
-                            <div>
-                                <label
-                                    class="block text-sm font-accent font-semibold text-brand-navy mb-2 tracking-wide uppercase">First
-                                    Name</label>
-                                <input type="text" id="firstName" required
-                                    class="w-full px-5 py-4 rounded-xl border-2 border-brand-gold/20 focus:border-brand-gold focus:ring-2 focus:ring-brand-gold/20 outline-none transition bg-brand-cream"
-                                    placeholder="John">
-                            </div>
-                            <div>
-                                <label
-                                    class="block text-sm font-accent font-semibold text-brand-navy mb-2 tracking-wide uppercase">Last
-                                    Name</label>
-                                <input type="text" id="lastName" required
-                                    class="w-full px-5 py-4 rounded-xl border-2 border-brand-gold/20 focus:border-brand-gold focus:ring-2 focus:ring-brand-gold/20 outline-none transition bg-brand-cream"
-                                    placeholder="Doe">
-                            </div>
-                        </div>
-                        <div>
-                            <label
-                                class="block text-sm font-accent font-semibold text-brand-navy mb-2 tracking-wide uppercase">Email
-                                Address</label>
-                            <input type="email" id="email" required
-                                class="w-full px-5 py-4 rounded-xl border-2 border-brand-gold/20 focus:border-brand-gold focus:ring-2 focus:ring-brand-gold/20 outline-none transition bg-brand-cream"
-                                placeholder="john@company.com">
-                        </div>
-                        <div>
-                            <label
-                                class="block text-sm font-accent font-semibold text-brand-navy mb-2 tracking-wide uppercase">Company
-                                Name</label>
-                            <input type="text" id="company"
-                                class="w-full px-5 py-4 rounded-xl border-2 border-brand-gold/20 focus:border-brand-gold focus:ring-2 focus:ring-brand-gold/20 outline-none transition bg-brand-cream"
-                                placeholder="Your Company">
-                        </div>
-                        <div>
-                            <label
-                                class="block text-sm font-accent font-semibold text-brand-navy mb-2 tracking-wide uppercase">Service
-                                Interest</label>
-                            <select id="service"
-                                class="w-full px-5 py-4 rounded-xl border-2 border-brand-gold/20 focus:border-brand-gold focus:ring-2 focus:ring-brand-gold/20 outline-none transition bg-brand-cream">
-                                <option value="">Select a service</option>
-                                <option value="International Freight">International Freight</option>
-                                <option value="Ocean Freight">Ocean Freight Logistics</option>
-                                <option value="Air Freight">Air Freight Services</option>
-                                <option value="Trade Logistics">Trade Logistics Support</option>
-                                <option value="Warehouse & Distribution">Warehouse & Distribution</option>
-                                <option value="Strategic Routing">Strategic Routing</option>
-                                <option value="Other">Other</option>
-                            </select>
-                        </div>
-                        <div>
-                            <label
-                                class="block text-sm font-accent font-semibold text-brand-navy mb-2 tracking-wide uppercase">Message</label>
-                            <textarea id="message" rows="4" required
-                                class="w-full px-5 py-4 rounded-xl border-2 border-brand-gold/20 focus:border-brand-gold focus:ring-2 focus:ring-brand-gold/20 outline-none transition bg-brand-cream"
-                                placeholder="Tell us about your logistics needs..."></textarea>
-                        </div>
-                        <button type="submit"
-                            class="w-full btn-primary text-brand-navy font-heading font-bold py-5 rounded-xl hover:shadow-2xl transition shadow-lg flex items-center justify-center gap-3">
-                            <i data-lucide="send" class="w-5 h-5"></i>
-                            Send Message
-                        </button>
-                    </form>
-                    <!-- Success Message -->
-                    <div id="success-message"
-                        class="hidden mt-6 p-6 bg-green-100 border-2 border-green-400 text-green-800 rounded-xl">
-                        <div class="flex items-center gap-3">
-                            <i data-lucide="check-circle" class="w-6 h-6"></i>
-                            <p class="font-semibold">Thank you! Your message has been sent successfully. We'll contact
-                                you within 24 hours.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Footer -->
-    <footer class="bg-brand-navy text-slate-400 py-16">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-12">
-                <div>
-                    <div class="flex items-center gap-3 mb-6">
-                        <div
-                            class="w-12 h-12 bg-gradient-to-br from-brand-gold to-brand-goldLight rounded-xl flex items-center justify-center">
-                            <i data-lucide="globe" class="h-7 w-7 text-brand-navy"></i>
-                        </div>
-                        <div>
-                            <span class="font-heading font-bold text-2xl text-white block">JAYUD GLOBAL</span>
-                            <span class="text-xs text-slate-500 tracking-widest uppercase">Logistics Limited</span>
-                        </div>
-                    </div>
-                    <p class="text-sm mb-6 leading-relaxed">Professional international logistics company connecting the
-                        United States and Asia with reliable freight solutions.</p>
-                    <div class="flex gap-3">
-                        <a href="#"
-                            class="w-10 h-10 bg-brand-cream/10 rounded-xl flex items-center justify-center hover:bg-brand-gold hover:text-brand-navy transition">
-                            <i data-lucide="linkedin" class="w-5 h-5"></i>
-                        </a>
-                        <a href="#"
-                            class="w-10 h-10 bg-brand-cream/10 rounded-xl flex items-center justify-center hover:bg-brand-gold hover:text-brand-navy transition">
-                            <i data-lucide="facebook" class="w-5 h-5"></i>
-                        </a>
-                        <a href="#"
-                            class="w-10 h-10 bg-brand-cream/10 rounded-xl flex items-center justify-center hover:bg-brand-gold hover:text-brand-navy transition">
-                            <i data-lucide="twitter" class="w-5 h-5"></i>
-                        </a>
-                    </div>
-                </div>
-                <div>
-                    <h4 class="text-white font-heading font-bold text-lg mb-6">Quick Links</h4>
-                    <ul class="space-y-3">
-                        <li><a href="#home" class="hover:text-brand-gold transition flex items-center gap-2"><i
-                                    data-lucide="chevron-right" class="w-4 h-4"></i>Home</a></li>
-                        <li><a href="#about" class="hover:text-brand-gold transition flex items-center gap-2"><i
-                                    data-lucide="chevron-right" class="w-4 h-4"></i>About Us</a></li>
-                        <li><a href="#services" class="hover:text-brand-gold transition flex items-center gap-2"><i
-                                    data-lucide="chevron-right" class="w-4 h-4"></i>Services</a></li>
-                        <li><a href="#leadership" class="hover:text-brand-gold transition flex items-center gap-2"><i
-                                    data-lucide="chevron-right" class="w-4 h-4"></i>Leadership</a></li>
-                        <li><a href="#contact" class="hover:text-brand-gold transition flex items-center gap-2"><i
-                                    data-lucide="chevron-right" class="w-4 h-4"></i>Contact</a></li>
-                    </ul>
-                </div>
-                <div>
-                    <h4 class="text-white font-heading font-bold text-lg mb-6">Services</h4>
-                    <ul class="space-y-3">
-                        <li><a href="#" onclick="openModal('international')"
-                                class="hover:text-brand-gold transition flex items-center gap-2"><i
-                                    data-lucide="chevron-right" class="w-4 h-4"></i>International Freight</a></li>
-                        <li><a href="#" onclick="openModal('ocean')"
-                                class="hover:text-brand-gold transition flex items-center gap-2"><i
-                                    data-lucide="chevron-right" class="w-4 h-4"></i>Ocean Freight</a></li>
-                        <li><a href="#" onclick="openModal('air')"
-                                class="hover:text-brand-gold transition flex items-center gap-2"><i
-                                    data-lucide="chevron-right" class="w-4 h-4"></i>Air Freight</a></li>
-                        <li><a href="#" onclick="openModal('warehouse')"
-                                class="hover:text-brand-gold transition flex items-center gap-2"><i
-                                    data-lucide="chevron-right" class="w-4 h-4"></i>Warehouse</a></li>
-                        <li><a href="#" onclick="openModal('routing')"
-                                class="hover:text-brand-gold transition flex items-center gap-2"><i
-                                    data-lucide="chevron-right" class="w-4 h-4"></i>Strategic Routing</a></li>
-                    </ul>
-                </div>
-                <div>
-                    <h4 class="text-white font-heading font-bold text-lg mb-6">Contact Info</h4>
-                    <ul class="space-y-4">
-                        <li class="flex items-start gap-3">
-                            <i data-lucide="map-pin" class="w-5 h-5 text-brand-gold mt-0.5 flex-shrink-0"></i>
-                            <span>1545 W Casmalia St, Rialto, CA 92377</span>
-                        </li>
-                        <li class="flex items-center gap-3">
-                            <i data-lucide="mail" class="w-5 h-5 text-brand-gold flex-shrink-0"></i>
-                            <span>info@jayudglobal.com</span>
-                        </li>
-                        <li class="flex items-center gap-3">
-                            <i data-lucide="phone" class="w-5 h-5 text-brand-gold flex-shrink-0"></i>
-                            <span>+1 (909) 555-0123</span>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <div class="border-t border-white/10 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
-                <p class="text-sm">© 2023 Jayud Global Logistics Limited. All rights reserved.</p>
-                <div class="flex space-x-6">
-                    <a href="#" class="hover:text-brand-gold transition text-sm">Privacy Policy</a>
-                    <a href="#" class="hover:text-brand-gold transition text-sm">Terms of Service</a>
-                    <a href="#" class="hover:text-brand-gold transition text-sm">Cookie Policy</a>
+                <div class="flex space-x-6 text-[9px] font-accent font-black tracking-[0.2em] uppercase text-white/40">
+                    <a href="#" class="hover:text-brand-gold transition-colors">Privacy_Protocol</a>
+                    <span class="text-white/20">|</span>
+                    <a href="#" class="hover:text-brand-gold transition-colors">Terms_Of_Engagement</a>
+                    <span class="text-white/20">|</span>
+                    <a href="#" class="hover:text-brand-gold transition-colors">Cookie_Directive</a>
                 </div>
             </div>
         </div>
@@ -3299,35 +3434,6 @@
             // Toggle clicked card
             card.classList.toggle('active');
         }
-
-        // Contact Form Submission
-        const contactForm = document.getElementById('contact-form');
-        const successMessage = document.getElementById('success-message');
-
-        contactForm.addEventListener('submit', (e) => {
-            e.preventDefault();
-
-            const firstName = document.getElementById('firstName').value;
-            const lastName = document.getElementById('lastName').value;
-            const email = document.getElementById('email').value;
-            const message = document.getElementById('message').value;
-
-            if (!firstName || !lastName || !email || !message) {
-                alert('Please fill in all required fields.');
-                return;
-            }
-
-            contactForm.classList.add('hidden');
-            successMessage.classList.remove('hidden');
-
-            lucide.createIcons();
-
-            setTimeout(() => {
-                contactForm.reset();
-                contactForm.classList.remove('hidden');
-                successMessage.classList.add('hidden');
-            }, 5000);
-        });
 
         // Navigation scroll effect
         window.addEventListener('scroll', () => {
