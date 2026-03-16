@@ -9,12 +9,21 @@
     <!-- Favicon & Branding -->
     <link rel="icon" type="image/svg+xml" href="favicon.svg">
     
-    <!-- Open Graph / Social Preview -->
+    <!-- Open Graph / Social Preview (Facebook, LinkedIn, Telegram, WhatsApp) -->
     <meta property="og:title" content="Jayud Global Logistics Limited">
     <meta property="og:description" content="Professional international logistics company connecting the United States and Asia with reliable freight solutions.">
-    <meta property="og:image" content="https://jayudlogistics.com/pexels-frans-van-heerden-201846-1624695.jpg">
+    <!-- Using a highly compressed/smaller image (<300KB) specifically so WhatsApp previews load correctly -->
+    <meta property="og:image" content="https://jayudlogistics.com/photo_2026-03-17_00-24-37.jpg">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
     <meta property="og:url" content="https://jayudlogistics.com/">
     <meta property="og:type" content="website">
+
+    <!-- Twitter / X Preview Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Jayud Global Logistics Limited">
+    <meta name="twitter:description" content="Professional international logistics company connecting the United States and Asia with reliable freight solutions.">
+    <meta name="twitter:image" content="https://jayudlogistics.com/photo_2026-03-17_00-24-37.jpg">
     <!-- Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
     <!-- Google Fonts -->
@@ -1066,7 +1075,7 @@
                     
                     <!-- Content -->
                     <div class="relative z-20 w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-                        <h1 class="font-heading text-6xl md:text-8xl lg:text-9xl font-black text-white leading-[0.85] mb-8 tracking-tighter uppercase italic animate-fade-in-up">
+                        <h1 class="font-heading text-5xl md:text-7xl lg:text-9xl font-black text-white leading-[0.85] mb-8 tracking-tighter uppercase italic animate-fade-in-up">
                             Reliable Logistics <br>
                             <span class="text-brand-gold">Between the US & Asia</span>
                         </h1>
@@ -1131,7 +1140,7 @@
     </section>
 
     <!-- About Section Overhaul -->
-    <section id="about" class="py-32 bg-brand-navy relative overflow-hidden">
+    <section id="about" class="py-16 md:py-32 bg-brand-navy relative overflow-hidden">
         <!-- Technical Grid Background -->
         <div class="absolute inset-0 opacity-5 pointer-events-none" style="background-image: radial-gradient(#F97316 1px, transparent 1px); background-size: 30px 30px;"></div>
         
@@ -1143,7 +1152,7 @@
                         <span class="text-brand-gold font-accent font-black tracking-[0.5em] uppercase text-xs italic">Corporate Profile // CORE-OPS-01</span>
                     </div>
                     
-                    <h2 class="font-heading text-4xl md:text-5xl font-black text-white mb-8 leading-[0.9] uppercase italic tracking-tighter px-2">
+                    <h2 class="font-heading text-3xl md:text-4xl lg:text-5xl font-black text-white mb-8 leading-[0.9] uppercase italic tracking-tighter px-2">
                         Bridging Markets, <br />
                         <span class="text-gradient">Simplifying Trade</span>
                     </h2>
@@ -1217,7 +1226,7 @@
                 <div class="absolute inset-0 opacity-5 pointer-events-none" style="background-image: radial-gradient(#fff 1px, transparent 1px); background-size: 20px 20px;"></div>
                 
                 <!-- Mission Section -->
-                <div class="p-12 md:p-16 border-b md:border-b-0 md:border-r border-white/10 relative group hover:bg-white/5 transition-colors">
+                <div class="p-6 md:p-12 md:p-16 border-b md:border-b-0 md:border-r border-white/10 relative group hover:bg-white/5 transition-colors">
                     <div class="flex items-center gap-4 mb-8">
                         <div class="w-12 h-[2px] bg-brand-gold"></div>
                         <span class="text-brand-gold font-accent font-black tracking-[0.4em] uppercase text-[10px] italic">Strategic Protocol 01</span>
@@ -1234,7 +1243,7 @@
                 </div>
 
                 <!-- Vision Section -->
-                <div class="p-12 md:p-16 relative group hover:bg-white/5 transition-colors">
+                <div class="p-6 md:p-12 md:p-16 relative group hover:bg-white/5 transition-colors">
                     <div class="flex items-center gap-4 mb-8">
                         <div class="w-12 h-[2px] bg-brand-gold"></div>
                         <span class="text-brand-gold font-accent font-black tracking-[0.4em] uppercase text-[10px] italic">Strategic Protocol 02</span>
@@ -1254,7 +1263,7 @@
             <!-- Industrial Redesign: The Jayud Journey Timeline -->
             <div class="journey-timeline mt-40 border-t border-white/10 pt-24">
                 <div class="flex flex-col md:flex-row items-baseline gap-6 mb-20 animate-fade-in-up">
-                    <h3 class="font-heading text-5xl md:text-6xl font-black text-white uppercase italic tracking-tighter leading-[0.9] px-2">
+                    <h3 class="font-heading text-4xl md:text-5xl lg:text-6xl font-black text-white uppercase italic tracking-tighter leading-[0.9] px-2">
                         The Jayud <br><span class="text-gradient">Journey</span>
                     </h3>
                     <div class="px-6 py-2 border-l-2 border-brand-gold">
@@ -1309,7 +1318,7 @@
     </section>
 
     <!-- How We Work Section -->
-    <section id="process" class="py-24 bg-brand-cream border-y-2 border-brand-gold/10">
+    <section id="process" class="py-12 md:py-24 bg-brand-cream border-y-2 border-brand-gold/10">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center mb-20 animate-fade-in-up">
                 <div class="flex items-center justify-center gap-4 mb-6">
@@ -1385,7 +1394,7 @@
     </section>
 
     <!-- Services Section -->
-    <section id="services" class="py-24 bg-gradient-to-b from-brand-cream to-white">
+    <section id="services" class="py-12 md:py-24 bg-gradient-to-b from-brand-cream to-white">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center mb-16">
                 <div class="flex items-center justify-center gap-4 mb-6">
@@ -1393,7 +1402,7 @@
                     <span class="text-brand-gold font-accent font-black tracking-[0.5em] uppercase text-xs">Logistic Capabilities</span>
                     <div class="h-[2px] w-12 bg-brand-gold"></div>
                 </div>
-                <h2 class="font-heading text-4xl md:text-5xl font-black text-brand-navy mb-8 uppercase italic leading-tight tracking-tighter px-4">
+                <h2 class="font-heading text-3xl md:text-4xl lg:text-5xl font-black text-brand-navy mb-8 uppercase italic leading-tight tracking-tighter px-4">
                     Freight <span class="text-gradient">Specializations</span>
                 </h2>
                 <p class="text-brand-slate text-xl max-w-4xl mx-auto leading-relaxed font-medium border-t border-brand-navy/5 pt-8">Professional-grade logistics infrastructure and tactical shipping protocols connecting US industrial hubs with Asian port terminals.</p>
@@ -1582,7 +1591,7 @@
     </div>
 
     <!-- Trade Routes Section -->
-    <section class="py-24 animated-bg overflow-hidden">
+    <section class="py-12 md:py-24 animated-bg overflow-hidden">
         <!-- Cinematic Video Background -->
         <div class="video-bg-container">
             <video autoplay muted loop playsinline
@@ -1594,9 +1603,9 @@
         </div>
 
         <!-- Decorative Circles (Reduced opacity for better visibility with video) -->
-        <div class="absolute top-20 left-10 w-96 h-96 bg-brand-gold/10 rounded-full blur-3xl animate-pulse-slow z-[2]">
+        <div class="absolute top-20 left-10 w-96 h-96 bg-brand-gold/10 rounded-full blur-3xl animate-pulse-slow z-[2] overflow-hidden">
         </div>
-        <div class="absolute bottom-20 right-10 w-[600px] h-[600px] bg-brand-gold/10 rounded-full blur-3xl animate-pulse-slow z-[2]"
+        <div class="absolute bottom-20 right-10 w-[600px] h-[600px] bg-brand-gold/10 rounded-full blur-3xl animate-pulse-slow z-[2] overflow-hidden"
             style="animation-delay: 2s;"></div>
 
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
@@ -1611,7 +1620,7 @@
                     <span class="text-brand-gold font-accent font-black tracking-[0.5em] uppercase text-xs italic">Global Logistics Core // Strategic Trade Lanes</span>
                     <div class="h-[2px] w-12 bg-brand-gold"></div>
                 </div>
-                <h2 class="font-heading text-5xl md:text-6xl font-black text-white mb-8 uppercase italic leading-tight tracking-tighter px-4">
+                <h2 class="font-heading text-4xl md:text-5xl lg:text-6xl font-black text-white mb-8 uppercase italic leading-tight tracking-tighter px-4">
                     Strategic Trade <span class="text-gradient">Lanes</span>
                 </h2>
                 <p class="text-slate-300 text-xl max-w-4xl mx-auto leading-relaxed font-medium border-t border-white/5 pt-8">
@@ -1781,7 +1790,7 @@
                 <!-- Route 1: USA ↔️ China -->
                 <div class="bg-white/5 p-8 border border-white/5 hover:bg-white/[0.08] transition-all duration-500 cursor-pointer group animate-fade-in-up relative overflow-hidden"
                     style="animation-delay: 0.6s;" onclick="scrollToContact('USA-China Route')">
-                    <div class="absolute -right-4 -bottom-6 text-[100px] font-heading font-black text-white/[0.03] italic select-none">CH</div>
+                    <div class="absolute -right-4 -bottom-6 text-[60px] md:text-[100px] font-heading font-black text-white/[0.03] italic select-none">CH</div>
                     <div class="flex items-center justify-between mb-8">
                         <div class="flex items-center gap-3">
                             <div class="w-10 h-10 rounded-none border border-white/20 overflow-hidden">
@@ -1810,7 +1819,7 @@
                 <!-- Route 2: USA ↔️ Japan -->
                 <div class="bg-white/5 p-8 border border-white/5 hover:bg-white/[0.08] transition-all duration-500 cursor-pointer group animate-fade-in-up relative overflow-hidden"
                     style="animation-delay: 0.7s;" onclick="scrollToContact('USA-Japan Route')">
-                    <div class="absolute -right-4 -bottom-6 text-[100px] font-heading font-black text-white/[0.03] italic select-none">JP</div>
+                    <div class="absolute -right-4 -bottom-6 text-[60px] md:text-[100px] font-heading font-black text-white/[0.03] italic select-none">JP</div>
                     <div class="flex items-center justify-between mb-8">
                         <div class="flex items-center gap-3">
                             <div class="w-10 h-10 rounded-none border border-white/20 overflow-hidden">
@@ -1839,7 +1848,7 @@
                 <!-- Route 3: USA ↔️ Korea -->
                 <div class="bg-white/5 p-8 border border-white/5 hover:bg-white/[0.08] transition-all duration-500 cursor-pointer group animate-fade-in-up relative overflow-hidden"
                     style="animation-delay: 0.8s;" onclick="scrollToContact('USA-Korea Route')">
-                    <div class="absolute -right-4 -bottom-6 text-[100px] font-heading font-black text-white/[0.03] italic select-none">KR</div>
+                    <div class="absolute -right-4 -bottom-6 text-[60px] md:text-[100px] font-heading font-black text-white/[0.03] italic select-none">KR</div>
                     <div class="flex items-center justify-between mb-8">
                         <div class="flex items-center gap-3">
                             <div class="w-10 h-10 rounded-none border border-white/20 overflow-hidden">
@@ -1868,7 +1877,7 @@
                 <!-- Route 4: USA ↔️ Singapore -->
                 <div class="bg-white/5 p-8 border border-white/5 hover:bg-white/[0.08] transition-all duration-500 cursor-pointer group animate-fade-in-up relative overflow-hidden"
                     style="animation-delay: 0.9s;" onclick="scrollToContact('USA-Singapore Route')">
-                    <div class="absolute -right-4 -bottom-6 text-[100px] font-heading font-black text-white/[0.03] italic select-none">SG</div>
+                    <div class="absolute -right-4 -bottom-6 text-[60px] md:text-[100px] font-heading font-black text-white/[0.03] italic select-none">SG</div>
                     <div class="flex items-center justify-between mb-8">
                         <div class="flex items-center gap-3">
                             <div class="w-10 h-10 rounded-none border border-white/20 overflow-hidden">
@@ -1897,7 +1906,7 @@
                 <!-- Route 5: USA ↔️ Philippines -->
                 <div class="bg-white/5 p-8 border border-white/5 hover:bg-white/[0.08] transition-all duration-500 cursor-pointer group animate-fade-in-up relative overflow-hidden"
                     style="animation-delay: 1s;" onclick="scrollToContact('USA-Philippines Route')">
-                    <div class="absolute -right-4 -bottom-6 text-[100px] font-heading font-black text-white/[0.03] italic select-none">PH</div>
+                    <div class="absolute -right-4 -bottom-6 text-[60px] md:text-[100px] font-heading font-black text-white/[0.03] italic select-none">PH</div>
                     <div class="flex items-center justify-between mb-8">
                         <div class="flex items-center gap-3">
                             <div class="w-10 h-10 rounded-none border border-white/20 overflow-hidden">
@@ -1926,7 +1935,7 @@
                 <!-- Route 6: USA ↔️ Thailand -->
                 <div class="bg-white/5 p-8 border border-white/5 hover:bg-white/[0.08] transition-all duration-500 cursor-pointer group animate-fade-in-up relative overflow-hidden"
                     style="animation-delay: 1.1s;" onclick="scrollToContact('USA-Thailand Route')">
-                    <div class="absolute -right-4 -bottom-6 text-[100px] font-heading font-black text-white/[0.03] italic select-none">TH</div>
+                    <div class="absolute -right-4 -bottom-6 text-[60px] md:text-[100px] font-heading font-black text-white/[0.03] italic select-none">TH</div>
                     <div class="flex items-center justify-between mb-8">
                         <div class="flex items-center gap-3">
                             <div class="w-10 h-10 rounded-none border border-white/20 overflow-hidden">
@@ -1955,7 +1964,7 @@
                 <!-- Route 7: USA ↔️ Vietnam -->
                 <div class="bg-white/5 p-8 border border-white/5 hover:bg-white/[0.08] transition-all duration-500 cursor-pointer group animate-fade-in-up relative overflow-hidden"
                     style="animation-delay: 1.2s;" onclick="scrollToContact('USA-Vietnam Route')">
-                    <div class="absolute -right-4 -bottom-6 text-[100px] font-heading font-black text-white/[0.03] italic select-none">VN</div>
+                    <div class="absolute -right-4 -bottom-6 text-[60px] md:text-[100px] font-heading font-black text-white/[0.03] italic select-none">VN</div>
                     <div class="flex items-center justify-between mb-8">
                         <div class="flex items-center gap-3">
                             <div class="w-10 h-10 rounded-none border border-white/20 overflow-hidden">
@@ -2054,7 +2063,7 @@
     </section>
 
     <!-- Why Choose Us -->
-    <section id="advantages" class="py-32 bg-brand-navy relative overflow-hidden">
+    <section id="advantages" class="py-16 md:py-32 bg-brand-navy relative overflow-hidden">
         <!-- Technical Grid Background -->
         <div class="absolute inset-0 opacity-5 pointer-events-none" style="background-image: radial-gradient(#F97316 1px, transparent 1px); background-size: 40px 40px;"></div>
         <div class="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-transparent via-brand-gold/50 to-transparent"></div>
@@ -2066,7 +2075,7 @@
                     <span class="text-brand-gold font-accent font-black tracking-[0.5em] uppercase text-xs italic">Value Proposition // Proprietary Assets</span>
                     <div class="h-[2px] w-12 bg-brand-gold"></div>
                 </div>
-                <h2 class="font-heading text-4xl md:text-5xl font-black text-white mb-8 uppercase italic leading-tight tracking-tighter px-4">
+                <h2 class="font-heading text-3xl md:text-4xl lg:text-5xl font-black text-white mb-8 uppercase italic leading-tight tracking-tighter px-4">
                     Strategic <span class="text-gradient">Assets</span>
                 </h2>
                 <div class="h-1 w-24 bg-brand-gold mx-auto"></div>
@@ -2075,7 +2084,7 @@
                 <!-- Asset 1: Global Network -->
                 <div class="bg-white/5 p-12 border border-white/5 hover:bg-white/[0.07] transition-all duration-500 cursor-pointer group animate-fade-in-up relative overflow-hidden"
                     style="animation-delay: 0.1s;" onclick="scrollToContact('Global Strategic Network')">
-                    <div class="absolute -right-4 -bottom-6 text-[120px] font-heading font-black text-brand-gold/5 italic select-none group-hover:text-brand-gold/10 transition-colors">01</div>
+                    <div class="absolute -right-4 -bottom-6 text-[80px] md:text-[120px] font-heading font-black text-brand-gold/5 italic select-none group-hover:text-brand-gold/10 transition-colors">01</div>
                     <div class="flex items-center justify-between mb-10">
                         <div class="w-16 h-16 bg-brand-gold/10 border border-brand-gold/20 flex items-center justify-center group-hover:bg-brand-gold transition-all duration-500">
                             <i data-lucide="network" class="text-brand-gold group-hover:text-brand-navy w-8 h-8 transition-colors"></i>
@@ -2101,7 +2110,7 @@
                 <!-- Asset 2: Professional Team -->
                 <div class="bg-white/5 p-12 border border-white/5 hover:bg-white/[0.07] transition-all duration-500 cursor-pointer group animate-fade-in-up relative overflow-hidden"
                     style="animation-delay: 0.2s;" onclick="scrollToContact('Elite Professional Team')">
-                    <div class="absolute -right-4 -bottom-6 text-[120px] font-heading font-black text-brand-gold/5 italic select-none group-hover:text-brand-gold/10 transition-colors">02</div>
+                    <div class="absolute -right-4 -bottom-6 text-[80px] md:text-[120px] font-heading font-black text-brand-gold/5 italic select-none group-hover:text-brand-gold/10 transition-colors">02</div>
                     <div class="flex items-center justify-between mb-10">
                         <div class="w-16 h-16 bg-brand-gold/10 border border-brand-gold/20 flex items-center justify-center group-hover:bg-brand-gold transition-all duration-500">
                             <i data-lucide="users" class="text-brand-gold group-hover:text-brand-navy w-8 h-8 transition-colors"></i>
@@ -2127,7 +2136,7 @@
                 <!-- Asset 3: Optimized Flow -->
                 <div class="bg-white/5 p-12 border border-white/5 hover:bg-white/[0.07] transition-all duration-500 cursor-pointer group animate-fade-in-up relative overflow-hidden"
                     style="animation-delay: 0.3s;" onclick="scrollToContact('Precision Logistics')">
-                    <div class="absolute -right-4 -bottom-6 text-[120px] font-heading font-black text-brand-gold/5 italic select-none group-hover:text-brand-gold/10 transition-colors">03</div>
+                    <div class="absolute -right-4 -bottom-6 text-[80px] md:text-[120px] font-heading font-black text-brand-gold/5 italic select-none group-hover:text-brand-gold/10 transition-colors">03</div>
                     <div class="flex items-center justify-between mb-10">
                         <div class="w-16 h-16 bg-brand-gold/10 border border-brand-gold/20 flex items-center justify-center group-hover:bg-brand-gold transition-all duration-500">
                             <i data-lucide="zap" class="text-brand-gold group-hover:text-brand-navy w-8 h-8 transition-colors"></i>
@@ -2153,7 +2162,7 @@
                 <!-- Asset 4: Partner-Centric -->
                 <div class="bg-white/5 p-12 border border-white/5 hover:bg-white/[0.07] transition-all duration-500 cursor-pointer group animate-fade-in-up relative overflow-hidden"
                     style="animation-delay: 0.4s;" onclick="scrollToContact('Partner-Centric Philosophy')">
-                    <div class="absolute -right-4 -bottom-6 text-[120px] font-heading font-black text-brand-gold/5 italic select-none group-hover:text-brand-gold/10 transition-colors">04</div>
+                    <div class="absolute -right-4 -bottom-6 text-[80px] md:text-[120px] font-heading font-black text-brand-gold/5 italic select-none group-hover:text-brand-gold/10 transition-colors">04</div>
                     <div class="flex items-center justify-between mb-10">
                         <div class="w-16 h-16 bg-brand-gold/10 border border-brand-gold/20 flex items-center justify-center group-hover:bg-brand-gold transition-all duration-500">
                             <i data-lucide="heart-handshake" class="text-brand-gold group-hover:text-brand-navy w-8 h-8 transition-colors"></i>
@@ -2179,7 +2188,7 @@
                 <!-- Asset 5: Digital Monitoring -->
                 <div class="bg-white/5 p-12 border border-white/5 hover:bg-white/[0.07] transition-all duration-500 cursor-pointer group animate-fade-in-up relative overflow-hidden"
                     style="animation-delay: 0.5s;" onclick="scrollToContact('Digital Monitoring')">
-                    <div class="absolute -right-4 -bottom-6 text-[120px] font-heading font-black text-brand-gold/5 italic select-none group-hover:text-brand-gold/10 transition-colors">05</div>
+                    <div class="absolute -right-4 -bottom-6 text-[80px] md:text-[120px] font-heading font-black text-brand-gold/5 italic select-none group-hover:text-brand-gold/10 transition-colors">05</div>
                     <div class="flex items-center justify-between mb-10">
                         <div class="w-16 h-16 bg-brand-gold/10 border border-brand-gold/20 flex items-center justify-center group-hover:bg-brand-gold transition-all duration-500">
                             <i data-lucide="monitor" class="text-brand-gold group-hover:text-brand-navy w-8 h-8 transition-colors"></i>
@@ -2205,7 +2214,7 @@
                 <!-- Asset 6: Sustainability -->
                 <div class="bg-white/5 p-12 border border-white/5 hover:bg-white/[0.07] transition-all duration-500 cursor-pointer group animate-fade-in-up relative overflow-hidden"
                     style="animation-delay: 0.6s;" onclick="scrollToContact('Sustainable Logistics')">
-                    <div class="absolute -right-4 -bottom-6 text-[120px] font-heading font-black text-brand-gold/5 italic select-none group-hover:text-brand-gold/10 transition-colors">06</div>
+                    <div class="absolute -right-4 -bottom-6 text-[80px] md:text-[120px] font-heading font-black text-brand-gold/5 italic select-none group-hover:text-brand-gold/10 transition-colors">06</div>
                     <div class="flex items-center justify-between mb-10">
                         <div class="w-16 h-16 bg-brand-gold/10 border border-brand-gold/20 flex items-center justify-center group-hover:bg-brand-gold transition-all duration-500">
                             <i data-lucide="leaf" class="text-brand-gold group-hover:text-brand-navy w-8 h-8 transition-colors"></i>
@@ -2232,7 +2241,7 @@
     </section>
 
     <!-- Industry Solutions Section -->
-    <section id="industries" class="py-24 bg-brand-cream">
+    <section id="industries" class="py-12 md:py-24 bg-brand-cream">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center mb-24">
                 <div class="flex items-center justify-center gap-4 mb-6">
@@ -2240,7 +2249,7 @@
                     <span class="text-brand-navy font-accent font-black tracking-[0.5em] uppercase text-xs italic">Specialized Verticals // Industry Solutions</span>
                     <div class="h-[2px] w-12 bg-brand-navy/20"></div>
                 </div>
-                <h2 class="font-heading text-4xl md:text-5xl font-black text-brand-navy mb-8 uppercase italic leading-tight tracking-tighter px-4">
+                <h2 class="font-heading text-3xl md:text-4xl lg:text-5xl font-black text-brand-navy mb-8 uppercase italic leading-tight tracking-tighter px-4">
                     Sector <span class="text-gradient">Specializations</span>
                 </h2>
                 <p class="text-brand-slate text-xl max-w-4xl mx-auto leading-relaxed font-medium border-t border-brand-navy/5 pt-8">Custom-engineered logistics frameworks for trans-Pacific market leaders and high-velocity supply chains.</p>
@@ -2347,13 +2356,13 @@
         <div class="leadership-carousel">
             <!-- Slide 1: Grace Lee -->
             <div class="carousel-slide active" data-index="0">
-                <div class="exec-editorial-content border-l-4 border-brand-gold/20 pl-12">
+                <div class="exec-editorial-content border-l-4 border-brand-gold/20 pl-6 md:pl-12">
                     <div class="flex items-center gap-4 mb-8">
                         <div class="h-[1px] w-8 bg-brand-gold"></div>
                         <span class="text-brand-gold font-accent text-[9px] font-black tracking-[0.6em] uppercase italic bg-brand-gold/5 px-3 py-1">Operational ID // EXEC-01-GRACE</span>
                     </div>
                     
-                    <h2 class="font-heading text-5xl md:text-6xl font-black mb-2 tracking-tighter uppercase italic leading-none text-white">Grace Lee</h2>
+                    <h2 class="font-heading text-4xl md:text-5xl lg:text-6xl font-black mb-2 tracking-tighter uppercase italic leading-none text-white">Grace Lee</h2>
                     <p class="text-brand-gold font-accent font-black tracking-[0.3em] uppercase mb-12 text-[10px] border-b border-brand-gold/20 pb-4 inline-block">Director of Global Operations</p>
 
                     <p class="text-2xl md:text-3xl font-heading italic leading-tight mb-10 max-w-xl text-white tracking-tight">
@@ -2402,13 +2411,13 @@
 
             <!-- Slide 2: Amy Chen -->
             <div class="carousel-slide" data-index="1">
-                <div class="exec-editorial-content border-l-4 border-brand-gold/20 pl-12">
+                <div class="exec-editorial-content border-l-4 border-brand-gold/20 pl-6 md:pl-12">
                     <div class="flex items-center gap-4 mb-8">
                         <div class="h-[1px] w-8 bg-brand-gold"></div>
                         <span class="text-brand-gold font-accent text-[9px] font-black tracking-[0.6em] uppercase italic bg-brand-gold/5 px-3 py-1">Operational ID // EXEC-02-AMY</span>
                     </div>
                     
-                    <h2 class="font-heading text-5xl md:text-6xl font-black mb-2 tracking-tighter uppercase italic leading-none text-white">Amy Chen</h2>
+                    <h2 class="font-heading text-4xl md:text-5xl lg:text-6xl font-black mb-2 tracking-tighter uppercase italic leading-none text-white">Amy Chen</h2>
                     <p class="text-brand-gold font-accent font-black tracking-[0.3em] uppercase mb-12 text-[10px] border-b border-brand-gold/20 pb-4 inline-block">Chief Operating Officer (COO)</p>
 
                     <p class="text-2xl md:text-3xl font-heading italic leading-tight mb-10 max-w-xl text-white tracking-tight">
@@ -2468,7 +2477,7 @@
     </section>
 
     <!-- Corporate Intelligence / Company Information -->
-    <section id="company-info" class="py-32 bg-brand-navy relative overflow-hidden border-t border-brand-gold/10">
+    <section id="company-info" class="py-16 md:py-32 bg-brand-navy relative overflow-hidden border-t border-brand-gold/10">
         <!-- Technical Grid Background -->
         <div class="absolute inset-0 opacity-5 pointer-events-none" style="background-image: radial-gradient(#F97316 1px, transparent 1px); background-size: 30px 30px;"></div>
         
@@ -2480,7 +2489,7 @@
                         <span class="text-brand-gold font-accent font-black tracking-[0.5em] uppercase text-xs italic">Registry Data // CORP-INT-09</span>
                     </div>
                     
-                    <h2 class="font-heading text-4xl md:text-5xl font-black text-white mb-12 leading-[0.9] uppercase italic tracking-tighter px-2">
+                    <h2 class="font-heading text-3xl md:text-4xl lg:text-5xl font-black text-white mb-12 leading-[0.9] uppercase italic tracking-tighter px-2">
                         Company <br />
                         <span class="text-gradient">Information</span>
                     </h2>
@@ -2595,7 +2604,7 @@
     </section>
 
     <!-- Knowledge Base (FAQ) // Logistics Terminal Logs -->
-    <section id="faq" class="py-32 bg-brand-navy relative overflow-hidden border-t border-brand-gold/10">
+    <section id="faq" class="py-16 md:py-32 bg-brand-navy relative overflow-hidden border-t border-brand-gold/10">
         <!-- Technical Scanning Overlay -->
         <div class="absolute inset-0 pointer-events-none opacity-5" style="background-image: linear-gradient(0deg, transparent 24%, rgba(249, 115, 22, .05) 25%, rgba(249, 115, 22, .05) 26%, transparent 27%, transparent 74%, rgba(249, 115, 22, .05) 75%, rgba(249, 115, 22, .05) 76%, transparent 77%, transparent); background-size: 50px 50px;"></div>
 
@@ -2606,7 +2615,7 @@
                     <span class="text-brand-gold font-accent font-black tracking-[0.5em] uppercase text-[10px] italic bg-brand-gold/5 px-4 py-1">Operational Knowledge Base // DB-LOG-01</span>
                     <div class="h-[1px] w-12 bg-brand-gold/30"></div>
                 </div>
-                <h2 class="font-heading text-4xl md:text-5xl font-black text-white uppercase italic tracking-tighter leading-tight">
+                <h2 class="font-heading text-3xl md:text-4xl lg:text-5xl font-black text-white uppercase italic tracking-tighter leading-tight">
                     Frequently Asked <span class="text-gradient">Questions</span>
                 </h2>
             </div>
@@ -2698,7 +2707,7 @@
     </section>
 
     <!-- Tactical Communications / Contact Section -->
-    <section id="contact" class="py-32 bg-brand-navy relative overflow-hidden">
+    <section id="contact" class="py-16 md:py-32 bg-brand-navy relative overflow-hidden">
         <!-- Technical Grid Overlay -->
         <div class="absolute inset-0 opacity-5 pointer-events-none" style="background-image: radial-gradient(#F97316 1px, transparent 1px); background-size: 30px 30px;"></div>
         
@@ -2711,7 +2720,7 @@
                         <span class="text-brand-gold font-accent font-black tracking-[0.5em] uppercase text-xs italic">Get In Touch</span>
                     </div>
                     
-                    <h2 class="font-heading text-4xl md:text-5xl font-black mb-12 italic uppercase tracking-tighter leading-[0.9]">
+                    <h2 class="font-heading text-3xl md:text-4xl lg:text-5xl font-black mb-12 italic uppercase tracking-tighter leading-[0.9]">
                         Contact <br />
                         <span class="text-gradient">Us</span>
                     </h2>
